@@ -20,7 +20,7 @@ class Globo
     pushMatrix();
     translate(x, y, 0);
     fill(0,0,255);
-    box(50);
+    box(20);
     popMatrix();
   }
   
