@@ -17,7 +17,11 @@ class Globo
 
   void dibujate()
   {
-      ellipse(x,y,100,100);
+    pushMatrix();
+    translate(x, y, 0);
+    fill(0,0,255);
+    box(50);
+    popMatrix();
   }
   
 }
@@ -27,7 +31,7 @@ ArrayList<Globo> globos;
 
 void setup()
 {
-  size(640,480);
+  size(640,480, P3D);
   globos = new ArrayList<Globo>();  
 }
 
