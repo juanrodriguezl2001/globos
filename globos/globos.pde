@@ -17,9 +17,11 @@ class Globo
 
   void dibujate()
   {
-    fill(255,0,0);
-    ellipse(x,y,50,120);
-    
+    pushMatrix();
+    translate(x, y, 0);
+    fill(0,0,255);
+    box(50);
+    popMatrix();
   }
   
 }
