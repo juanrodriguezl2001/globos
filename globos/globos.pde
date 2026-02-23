@@ -17,7 +17,9 @@ class Globo
 
   void dibujate()
   {
-      ellipse(x,y,50,120);
+    fill(255,0,0);
+    ellipse(x,y,50,120);
+    
   }
   
 }
